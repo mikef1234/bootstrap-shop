@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Antique Shop</title>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+  				  <div class="container-fluid">
+  				    <div class="navbar-header">
+  				      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+  				        <span class="sr-only">Toggle navigation</span>
+  				        <span class="icon-bar"></span>
+  				        <span class="icon-bar"></span>
+  				        <span class="icon-bar"></span>
+  				      </button>
+                <a class="navbar-brand" href="/">Antique Shop</a>
+  				    </div>
+
+  				    <!-- Collect the nav links, forms, and other content for toggling -->
+  				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+  				      <ul class="nav navbar-nav navbar-right">
+  						<li class="active"><a href="/newest">Newest<span class="sr-only">(current)</span></a></li>
+  				    <li><a href="/catalogue">Catalogue</a></li>
+  				    <li><a href="/contact">Contact</a></li>
+  				      </ul>
+  				    </div>
+  				  </div>
+  				</nav>
+
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12">
+                      <div class="well well-sm">
+                          <form class="form-horizontal" method="post">
+                              <fieldset>
+                                  <legend class="text-center header">Contact us</legend>
+                                  <div class="form-group">
+                                      <div class="col-md-10 col-md-offset-1">
+                                          <input id="fname" name="name" type="text" placeholder="First Name" class="form-control">
+                                      </div>
+                                  </div>
+                                  <div class="form-group">
+                                      <div class="col-md-10 col-md-offset-1">
+                                          <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control">
+                                      </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                      <div class="col-md-10 col-md-offset-1">
+                                          <input id="email" name="email" type="text" placeholder="Email Address" class="form-control">
+                                      </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                      <div class="col-md-10 col-md-offset-1">
+                                          <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control">
+                                      </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                      <div class="col-md-10 col-md-offset-1">
+                                          <textarea class="form-control" id="message" name="message" placeholder="Enter your massage for us here. We will get back to you within 2 business days." rows="7"></textarea>
+                                      </div>
+                                  </div>
+
+                                  <div class="form-group">
+                                      <div class="col-md-12 text-center">
+                                          <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+                                      </div>
+                                  </div>
+                              </fieldset>
+                          </form>
+                      </div>
+                  </div>
+          </div>
+<footer class="container">
+  <div class="row">
+    <p class="col-sm-4">&copy; Antique Shop
+    </p>
+    <ul class="col-sm-8">
+    <ul>
+    <a class="btn btn-social-icon btn-twitter">
+    <span class="fa fa-twitter fa-3x"></span></a>
+    <a class="btn btn-social-icon btn-facebook">
+    <span class="fa fa-facebook fa-3x"></span></a>
+    <a class="btn btn-social-icon btn-instagram">
+    <span class="fa fa-instagram fa-3x"></span></a>
+    <a class="btn btn-social-icon btn-github">
+    <span class="fa fa-github fa-3x"></span></a>
+  </ul>
+  </div>
+
+  </footer>
+
+</body>
+</html>
